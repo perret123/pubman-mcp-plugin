@@ -1,0 +1,20 @@
+{
+  "name": "perret123-pubman",
+  "interface": {
+    "displayName": "Perret123 Pubman"
+  },
+  "plugins": [
+    {
+      "name": "pubman-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pubman-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

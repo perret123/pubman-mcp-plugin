@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pubman-mcp": {
+      "type": "http",
+      "url": "https://pubman-mcp-dajaryk6hq-oa.a.run.app/mcp"
+    }
+  }
+}

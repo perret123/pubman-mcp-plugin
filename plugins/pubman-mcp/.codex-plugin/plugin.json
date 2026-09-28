@@ -1,0 +1,35 @@
+{
+  "name": "pubman-mcp",
+  "version": "0.1.0",
+  "description": "Connect Codex to Pubman through the secure Pubman MCP endpoint.",
+  "author": {
+    "name": "perret123",
+    "url": "https://github.com/perret123"
+  },
+  "homepage": "https://github.com/perret123/pubman-mcp-plugin",
+  "repository": "https://github.com/perret123/pubman-mcp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "pubman",
+    "pubware",
+    "mcp",
+    "restaurant"
+  ],
+  "interface": {
+    "displayName": "Pubman MCP",
+    "shortDescription": "Use Pubman data and workflows in Codex.",
+    "longDescription": "Connects Codex to Pubman via its remote MCP server. Sign in with the same Firebase account used for Pubman.",
+    "developerName": "perret123",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Zeige mir die wichtigsten Pubman-Kennzahlen von heute.",
+      "Gibt es offene Bestellungen, die Aufmerksamkeit brauchen?",
+      "Zeige mir die Umsätze des letzten Monats nach Wochentag."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
